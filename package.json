@@ -4,7 +4,8 @@
   "description": "Backend aplication delivery",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "vercel-build": "npx migrate deploy"
   },
   "keywords": [
     "flutter",
@@ -23,11 +24,14 @@
     "https": "^1.0.0",
     "jsonwebtoken": "^8.5.1",
     "mercadopago": "^1.5.9",
+    "migrate": "^1.8.0",
     "morgan": "^1.10.0",
     "multer": "^1.4.3",
+    "node-pg-migrate": "^6.2.2",
     "passport": "^0.4.1",
     "passport-jwt": "^4.0.0",
     "passport-local": "^1.0.0",
+    "pg": "^8.11.0",
     "pg-promise": "^10.10.2",
     "socket.io": "^2.4.1",
     "util": "^0.12.4"
